@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="icone.png" type="image/x-icon">
+		<title>Buscando endereços</title>
+        <link rel="stylesheet" href="cep.css">
+    </head>
+    <div class="title">
+        <h2 class="h2">Diogo e Higor</h2>
+    </div>      
+    <form id="form-cep">
+
+        <table class="principal"> 
+             
+        <div class="grupo">
+           
+            <td><label for="Cep">Cep:</label></td>
+            <td><input id="cep" name="Cep" type="text"class="input"></td>
+   
+        </div>  
+        <div class="grupo">
+       
+                <td><label for="endereco">Endereço:</label></td>
+                    <td> <input id="endereco" name="endereco" type="text"class="input"></td>
+         
+        </div>
+        <div class="grupo">
+       
+                <td><label for="Estado">Estado:</label></td>
+                    <td><input id="estado" name="Estado" type="text"class="input"></td>
+          
+        </div>
+        
+        <div class="grupo">
+       
+                <td><label for="Bairro">Bairro:</label></td>
+                    <td><input id="bairro" name="Bairro" type="text"  class="input"></td>
+                </tr>
+        </div>
+
+        <div class="grupo">
+     
+                <td><label for="Numero">Numero:</label></td>
+                    <td><input id="numero" name="Numero" type="text"  class="input"></td>
+        
+        </div>
+
+        <div class="grupo">
+          
+                <td><label for="cidade">Cidade:</label></td>
+                    <td><input id="cidade" name="cidade" type="text"  class="input"></td>
+       
+        </div>
+
+       
+
+        <script src="ScriptJason.js"></script>
+    </table>
+    <button class="botao" id="add-cep" class="botao bto-principal" data-form-button>Enviar</button>
+    </form>
+</html>
