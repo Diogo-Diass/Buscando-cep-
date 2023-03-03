@@ -1,38 +1,121 @@
-body{
-    background: linear-gradient(to left, #caf0f8, white);
-}
-.principal{
-    margin: auto;
-    width: 80%; 
-    margin-top: 300px;
+@media screen and (min-width: 0px) and (max-width: 799px){
+
+    body{
+        font-family: sans-serif;
+        background-color: rgb(51, 51, 51);
+        color: white;
+        
+    }
+
+    .title{
+        text-align: center;
+        border: 0.7em solid rgb(51, 51, 51);
+        margin-bottom: 1em;
+        background: linear-gradient(183deg, rgba(15,15,15,1) 0%, rgba(255,253,253,1) 20%, rgba(0,0,0,1) 100%);
+       
+    }
+
+    .botao{
+        background-color: rgb(206, 206, 206);
+        width: 50%;
+        border-radius: 1em;
+        margin: auto;
+        margin-top: 1em;
+        height: 3em;
+        color: black;
+    }
+
+    .botao :hover{
+        background-color: burlywood;
+        color: white;
+    }
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        border: 0.2em solid white;
+        background: linear-gradient(183deg, rgba(15,15,15,1) 0%, rgba(82,82,82,1) 100%);
+
+        padding: 1em;
+    }
+
+    .input{
+        border-radius: 2em;
+        height: 2.5em;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .input:focus{
+        background-color: black;
+        color: white;
+    }
+
+    label{
+        text-align: center;
+        margin-top: 1em;
+    }
     
-    
 }
-.input{
-    width: 70%;
-    margin: 0.5em;
-    background-color: #edf6f9;
-    border: 5px solid #3f37c9;
-    color:#6a040f;
-}
-.h2{
-    text-align: center;
-    color: #d90429;
-}
-.title{
-    
-    background-color: white;
-    height: 2em;
-}
-label{
-    color:red;
-}
-.botao{
-    text-align: center;
-    width: 10%;
-    margin-top: 5em;
-    margin-left: 60em;
-    background-color: white;
-   
-    height: 3em;
+
+@media screen and (min-width: 800px){
+
+    body{
+        font-family: sans-serif;
+        background-color: rgb(51, 51, 51);
+        color: white;
+        
+    }
+
+    .title{
+        text-align: center;
+        border: 0.7em solid rgb(51, 51, 51);
+        margin-bottom: 1em;
+        background: linear-gradient(183deg, rgba(15,15,15,1) 0%, rgba(255,253,253,1) 20%, rgba(0,0,0,1) 100%);
+       
+    }
+
+    .botao{
+        background-color: rgb(206, 206, 206);
+        width: 50%;
+        border-radius: 1em;
+        margin: auto;
+        margin-top: 1em;
+        height: 3em;
+        color: black;
+    }
+
+    .botao :hover{
+        background-color: burlywood;
+        color: white;
+    }
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        border: 0.2em solid white;
+        width: 50%;
+        margin: auto;
+        background: linear-gradient(183deg, rgba(15,15,15,1) 0%, rgba(82,82,82,1) 100%);
+
+        padding: 1em;
+    }
+
+    .input{
+        border-radius: 2em;
+        height: 2.5em;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .input:focus{
+        background-color: black;
+        color: white;
+    }
+
+    label{
+        text-align: center;
+        margin-top: 1em;
+    }
+
 }

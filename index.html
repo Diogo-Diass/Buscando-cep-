@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="icone.png" type="image/x-icon">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+		<title>Buscando endereços</title>
+        <link rel="stylesheet" href="cep.css">
+    </head>
+
+    <div class="title">
+        <h1 class="h2">Buscar pelo cep</h1>
+    </div>     
+
+    <form id="form-cep">
+
+        <div class="principal"> 
+             
+        
+           
+        <label for="Cep">Cep:</label>
+
+           <input id="cep" name="Cep" type="text"class="input">
+       
+                <label for="endereco">Endereço:</label>
+                     <input id="endereco" name="endereco" type="text"class="input" readonly>
+         
+                <label for="Estado">Estado:</label>
+                    <input id="estado" name="Estado" type="text"class="input" readonly>
+          
+                <label for="Bairro">Bairro:</label>
+                    <input id="bairro" name="Bairro" type="text"  class="input" readonly>
+
+     
+                <label for="Numero">Numero:</label>
+                    <input id="numero" name="Numero" type="text"  class="input">
+        
+
+                <label for="cidade">Cidade:</label>
+                    <input id="cidade" name="cidade" type="text"  class="input" readonly>
+
+                    <button class="botao" id="add-cep" class="botao bto-principal" data-form-button>Enviar</button>
+       
+        </div>
+
+       
+
+        <script src="ScriptJason.js"></script>
+
+    
+    </form>
+</html>
