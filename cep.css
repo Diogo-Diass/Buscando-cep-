@@ -23,6 +23,7 @@
         margin-top: 1em;
         height: 3em;
         color: black;
+        cursor: pointer;
     }
 
     .botao :hover{
@@ -48,6 +49,8 @@
 
     .input:focus{
         background-color: black;
+        outline: 0em;
+        border: 0.2em solid cyan;
         color: white;
     }
 
@@ -83,9 +86,10 @@
         margin-top: 1em;
         height: 3em;
         color: black;
+        cursor: pointer;
     }
 
-    .botao :hover{
+    .botao:hover{
         background-color: burlywood;
         color: white;
     }
@@ -110,6 +114,8 @@
 
     .input:focus{
         background-color: black;
+        outline: 0em;
+        border: 0.2em solid cyan;
         color: white;
     }
 
